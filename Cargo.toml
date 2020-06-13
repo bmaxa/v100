@@ -1,0 +1,11 @@
+[package]
+name = "v100_gtk"
+version = "1.0.0"
+authors = ["Branimir Maksimovic <branimir.maksimovic@gmail.com>"]
+
+[dependencies]
+gtk = "*"
+
+[profile.release]
+opt-level = 3
+lto = true
